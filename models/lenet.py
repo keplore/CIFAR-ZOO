@@ -1,4 +1,8 @@
 # -*-coding:utf-8-*-
+# date   : 2020-1-27
+# addr   : HangZhou China
+# author : yangshuo
+# notes  : lenet-5 pytorch code
 import torch.nn as nn
 import torch.nn.functional as F
 
