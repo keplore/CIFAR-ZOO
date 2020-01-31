@@ -1,23 +1,23 @@
-Architecure
-(lenet) LeNet-5, convolutional neural networks
-(alexnet) ImageNet Classification with Deep Convolutional Neural Networks
-(vgg) Very Deep Convolutional Networks for Large-Scale Image Recognition
-(resnet) Deep Residual Learning for Image Recognition
-(preresnet) Identity Mappings in Deep Residual Networks
-(resnext) Aggregated Residual Transformations for Deep Neural Networks
-(densenet) Densely Connected Convolutional Networks
-(senet) Squeeze-and-Excitation Networks
-(bam) BAM: Bottleneck Attention Module
-(cbam) CBAM: Convolutional Block Attention Module
-(genet) Gather-Excite: Exploiting Feature Context in Convolutional Neural Networks
-(sknet) SKNet: Selective Kernel Networks
-Regularization
-(shake-shake) Shake-Shake regularization
-(cutout) Improved Regularization of Convolutional Neural Networks with Cutout
-(mixup) mixup: Beyond Empirical Risk Minimization
-Learning Rate Scheduler
-(cos_lr) SGDR: Stochastic Gradient Descent with Warm Restarts
-(htd_lr) Stochastic Gradient Descent with Hyperbolic-Tangent Decay on Classification
+- Architecure
+  - **(lenet)** [LeNet-5, convolutional neural networks](http://yann.lecun.com/exdb/lenet/)
+  - **(alexnet)** [ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks)
+  - **(vgg)** [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556)
+  - **(resnet)** [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
+  - **(preresnet)** [Identity Mappings in Deep Residual Networks](https://arxiv.org/abs/1603.05027)
+  - **(resnext)** [Aggregated Residual Transformations for Deep Neural Networks](https://arxiv.org/abs/1611.05431)
+  - **(densenet)** [Densely Connected Convolutional Networks](https://arxiv.org/abs/1608.06993)
+  - **(senet)** [Squeeze-and-Excitation Networks](https://arxiv.org/abs/1709.01507)
+  - **(bam)** [BAM: Bottleneck Attention Module](https://arxiv.org/abs/1807.06514)
+  - **(cbam)** [CBAM: Convolutional Block Attention Module](https://arxiv.org/abs/1807.06521)
+  - **(genet)** [Gather-Excite: Exploiting Feature Context in Convolutional Neural Networks](https://arxiv.org/abs/1810.12348)
+  - **(sknet)** [SKNet: Selective Kernel Networks](https://arxiv.org/abs/1903.06586)
+- Regularization
+  - **(shake-shake)** [Shake-Shake regularization](https://arxiv.org/abs/1705.07485)
+  - **(cutout)** [Improved Regularization of Convolutional Neural Networks with Cutout](https://arxiv.org/abs/1708.04552)
+  - **(mixup)** [mixup: Beyond Empirical Risk Minimization](https://arxiv.org/abs/1710.09412)
+- Learning Rate Scheduler
+  - **(cos_lr)** [SGDR: Stochastic Gradient Descent with Warm Restarts](https://arxiv.org/abs/1608.03983)
+  - **(htd_lr)** [Stochastic Gradient Descent with Hyperbolic-Tangent Decay on Classification](https://arxiv.org/abs/1806.01593)
 
 ## Results on CIFAR
 
