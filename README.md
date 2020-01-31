@@ -1,3 +1,24 @@
+Architecure
+(lenet) LeNet-5, convolutional neural networks
+(alexnet) ImageNet Classification with Deep Convolutional Neural Networks
+(vgg) Very Deep Convolutional Networks for Large-Scale Image Recognition
+(resnet) Deep Residual Learning for Image Recognition
+(preresnet) Identity Mappings in Deep Residual Networks
+(resnext) Aggregated Residual Transformations for Deep Neural Networks
+(densenet) Densely Connected Convolutional Networks
+(senet) Squeeze-and-Excitation Networks
+(bam) BAM: Bottleneck Attention Module
+(cbam) CBAM: Convolutional Block Attention Module
+(genet) Gather-Excite: Exploiting Feature Context in Convolutional Neural Networks
+(sknet) SKNet: Selective Kernel Networks
+Regularization
+(shake-shake) Shake-Shake regularization
+(cutout) Improved Regularization of Convolutional Neural Networks with Cutout
+(mixup) mixup: Beyond Empirical Risk Minimization
+Learning Rate Scheduler
+(cos_lr) SGDR: Stochastic Gradient Descent with Warm Restarts
+(htd_lr) Stochastic Gradient Descent with Hyperbolic-Tangent Decay on Classification
+
 ## Results on CIFAR
 
 ### Basic Architectures
