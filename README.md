@@ -69,9 +69,9 @@ The training log will be dumped via logging, check ``log.txt`` in your work path
 
 | architecture          | params | batch size | epoch | C10 test acc (%) | C100 test acc (%) |
 | :-------------------- | :----: | :--------: | :---: | :--------------: | :---------------: |
-| Lecun                 |  62K   |    128     |  250  |      67.46       |       34.10       |
-| alexnet               |  2.4M  |    128     |  250  |      75.56       |       38.67       |
-| vgg19                 |  20M   |    128     |  250  |      93.00       |       72.07       |
+| LeNet                 |  62K   |    128     |  250  |      67.46       |       34.10       |
+| AlexNet               |  2.4M  |    128     |  250  |      75.56       |       38.67       |
+| VGG19                 |  20M   |    128     |  250  |      93.00       |       72.07       |
 | preresnet20           | 0.27M  |    128     |  250  |      91.88       |       67.03       |
 | preresnet110          |  1.7M  |    128     |  250  |      94.24       |       72.96       |
 | preresnet1202         | 19.4M  |    128     |  250  |      94.74       |       75.28       |
