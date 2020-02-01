@@ -27,21 +27,19 @@
 | Architecture          | params | batch size | epoch | C10 test acc (%) | C100 test acc (%) |
 | :-------------------- | :----: | :--------: | :---: | :--------------: | :---------------: |
 | LeNet5                | 60.55K |    128     | 1000  |      75.84       |       42.10       |
-| AlexNet               | 2.36M  |    128     | 1000  |      76.52       |       **.**       |
-| VGG19                 |  20M   |    128     |  250  |      **.**       |       **.**       |
-| preresnet20           | 0.27M  |    128     |  250  |      **.**       |       **.**       |
-| preresnet110          |  1.7M  |    128     |  250  |      **.**       |       **.**       |
-| preresnet1202         | 19.4M  |    128     |  250  |      **.**       |       **.**       |
-| densenet100bc         | 0.76M  |    128     |  300  |      **.**       |       **.**       |
-| densenet190bc         | 25.6M  |    128     |  300  |      **.**       |       **.**       |
-| resnext29_16x64d      | 68.1M  |    128     |  300  |      **.**       |       **.**       |
-| se_resnext29_16x64d   | 68.6M  |    128     |  300  |      **.**       |     **83.65**     |
-| cbam_resnext29_16x64d | 68.7M  |    128     |  300  |    **96.27**     |       **.**       |
-| ge_resnext29_16x64d   | 70.0M  |    128     |  300  |      **.**       |       **.**       |
+| AlexNet               |  2.36M |    128     | 1000  |      76.52       |       45.25       |
+| VGG19                 |  20M   |    128     | 1000  |      **.**       |       **.**       |
+| PreResNet20           | 0.27M  |    128     | 1000  |      **.**       |       **.**       |
+| PreResNet110          |  1.7M  |    128     | 1000  |      **.**       |       **.**       |
+| PreResNet1202         | 19.4M  |    128     | 1000  |      **.**       |       **.**       |
+| DenseNet100bc         | 0.76M  |    128     | 1000  |      **.**       |       **.**       |
+| DenseNet190bc         | 25.6M  |    128     | 1000  |      **.**       |       **.**       |
+| ResNext29_16x64d      | 68.1M  |    128     | 1000  |      **.**       |       **.**       |
+| SE_ResNext29_16x64d   | 68.6M  |    128     | 1000  |      **.**       |     **83.65**     |
+| shake_ResNet26_2x64d  | 68.7M  |    128     | 1000  |    **96.27**     |       **.**       |
 
 
 ### With Additional Regularization
-
 
 PS: the default data augmentation methods are ``RandomCrop`` + ``RandomHorizontalFlip`` + ``Normalize``,   
 and the ``√`` means which additional method be used. :cake:
