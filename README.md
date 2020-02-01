@@ -27,17 +27,17 @@
 | Architecture          | params | batch size | epoch | C10 test acc (%) | C100 test acc (%) |
 | :-------------------- | :----: | :--------: | :---: | :--------------: | :---------------: |
 | LeNet5                | 60.55K |    128     | 1000  |      75.84       |       42.10       |
-| AlexNet               |  2.4M  |    128     |  250  |      75.56       |       38.67       |
-| VGG19                 |  20M   |    128     |  250  |      93.00       |       72.07       |
-| preresnet20           | 0.27M  |    128     |  250  |      91.88       |       67.03       |
-| preresnet110          |  1.7M  |    128     |  250  |      94.24       |       72.96       |
-| preresnet1202         | 19.4M  |    128     |  250  |      94.74       |       75.28       |
-| densenet100bc         | 0.76M  |     64     |  300  |      95.08       |       77.55       |
-| densenet190bc         | 25.6M  |     64     |  300  |      96.11       |       82.59       |
-| resnext29_16x64d      | 68.1M  |    128     |  300  |      95.94       |       83.18       |
-| se_resnext29_16x64d   | 68.6M  |    128     |  300  |      96.15       |     **83.65**     |
-| cbam_resnext29_16x64d | 68.7M  |    128     |  300  |    **96.27**     |       83.62       |
-| ge_resnext29_16x64d   | 70.0M  |    128     |  300  |      96.21       |       83.57       |
+| AlexNet               |  2.4M  |    128     | 1000  |      76.52       |       38.67       |
+| VGG19                 |  20M   |    128     |  250  |      **.**       |       **.**       |
+| preresnet20           | 0.27M  |    128     |  250  |      **.**       |       **.**       |
+| preresnet110          |  1.7M  |    128     |  250  |      **.**       |       **.**       |
+| preresnet1202         | 19.4M  |    128     |  250  |      **.**       |       **.**       |
+| densenet100bc         | 0.76M  |    128     |  300  |      **.**       |       **.**       |
+| densenet190bc         | 25.6M  |    128     |  300  |      **.**       |       **.**       |
+| resnext29_16x64d      | 68.1M  |    128     |  300  |      **.**       |       **.**       |
+| se_resnext29_16x64d   | 68.6M  |    128     |  300  |      **.**       |     **83.65**     |
+| cbam_resnext29_16x64d | 68.7M  |    128     |  300  |    **96.27**     |       **.**       |
+| ge_resnext29_16x64d   | 70.0M  |    128     |  300  |      **.**       |       **.**       |
 
 
 ### With Additional Regularization
@@ -69,18 +69,5 @@ and the ``√`` means which additional method be used. :cake:
 | **shake_resnet26_2x64d** | 1800  |   √    |   √   |    **97.71**     |
 
 PS: ``shake_resnet26_2x64d`` achieved **97.71%** test accuracy with ``cutout`` and ``mixup``!!    
-It's cool, right?  
- 
-### With different LR scheduler
 
-| architecture | epoch | step decay | cosine | htd(-6,3) | cutout | mixup | C10 test acc (%) |
-| :----------- | :---: | :--------: | :----: | :-------: | :----: | :---: | :--------------: |
-| preresnet20  |  250  |     √      |        |           |        |       |      91.88       |
-| preresnet20  |  250  |            |   √    |           |        |       |      92.13       |
-| preresnet20  |  250  |            |        |     √     |        |       |      92.44       |
-| preresnet20  |  250  |            |        |     √     |   √    |   √   |    **93.30**     |
-| preresnet110 |  250  |     √      |        |           |        |       |      94.24       |
-| preresnet110 |  250  |            |   √    |           |        |       |      94.48       |
-| preresnet110 |  250  |            |        |     √     |        |       |      94.82       |
-| preresnet110 |  250  |            |        |     √     |   √    |   √   |    **95.88**     |
 
